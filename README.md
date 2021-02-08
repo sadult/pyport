@@ -8,7 +8,10 @@ __My OS was ubuntu when i code this so commands is for ubuntu, you may need to c
   * python3
   * pip3
   * neofetch
-
+  
+```shell
+sudo apt install python3 pip3 neofetch
+```
 
 * I used these modules =>
   * socket 
@@ -30,14 +33,9 @@ CD:
 ```python 
 cd pyport
 ```
-By defualt it scanns from port 
-`1`
-to 
-`9999`
-you can custmoize it from 
-`2` - `65535`
-in line 
-`64`
+By defualt it scanns from port `1` to `9999`
+you can custmoize it from `2` - `65535`
+in line `64`
   
 ```python
 for port in range(1, 9999):
